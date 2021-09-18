@@ -387,13 +387,12 @@ h5 {
     height: 220px;
   }
 }
-
 .header-bg-deco {
   width: 100px;
   height: 130px;
   background: #BCD9EA;
   position: absolute;
-  right: 50px;
+  right: 15%;
 }
 @media screen and (min-width: 780px) {
   .header-bg-deco {
@@ -415,8 +414,14 @@ h5 {
 /* welcome-text */
 .welcome-text h2 {
   position: absolute;
-  right: 20px;
-  top: 60px;
+  right: 8%;
+  top: 70px;
+}
+@media screen and (min-width: 600px) {
+  .welcome-text h2 {
+    right: 10%;
+    top: 40px;
+  }
 }
 @media screen and (min-width: 780px) {
   .welcome-text h2 {
