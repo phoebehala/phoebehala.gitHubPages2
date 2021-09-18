@@ -6,6 +6,13 @@
     align-items: $align-items;
 }
 
+@mixin centerize{
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 @mixin textStyles($transform: uppercase) {
     font-weight: 300;
     letter-spacing: 2px;
@@ -27,6 +34,8 @@
     color: $color;
     letter-spacing: $letter-spacing;
 }
+
+
 
 
 

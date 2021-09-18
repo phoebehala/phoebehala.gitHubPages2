@@ -5,8 +5,13 @@
     margin: 0 20px;
     padding-bottom: 10px;
 
+
     @include mediaQuery(1200px){
         margin: 0 30px;
+    }
+
+    .logo{
+        margin-top:  2%;
     }
 }
 .site-nav-list{
@@ -39,7 +44,7 @@
 
 .header-bg{
     width: 100%;
-    height:150px ;
+    height:160px ;
     background: $primary-color;
 
     @include mediaQuery(1200px){
@@ -48,7 +53,7 @@
 }
 .header-bg-deco{
     width: 100px;
-    height: 120px;
+    height: 130px;
     background: $secondary-color;
     position:absolute;
     right: 50px;
@@ -72,7 +77,7 @@
 .welcome-text h2{
     position:absolute;
     right: 20px;
-    top: 40px;
+    top: 60px;
 
     @include mediaQuery(780px){
         right: 70px;
@@ -109,28 +114,48 @@
         
     }
     display: flex;
+    @include flexLayout;
 
+    .fa-search{
+        width: 9px;
+        position:absolute;
+        left: 10px;
+        top: 2px;
+        color: $primary-color;
 
+        @include flexLayout;
+    
+        @include mediaQuery(780px){
+            width: 10px;
+            right: 20px;
+            top: 4px;
+        }
+    
+        @include mediaQuery(1200px){
+            width: 12px;
+            right: 25px;
+            top: 5px;
+        }
+    }
+    &-txt{
+        position:absolute;
+        left: 30px;
+        
+        border: none;
+        background: none;
+        outline: none;
+        
+        padding: 0;
+        color:$font-main-color;
+        font-size:medium;
+        //line-height:20px;
+
+        width: 80%;
+        font-size: $font-size-placeholder;
+
+    }
 }
 
-.fa-search{
-    width: 9px;
-    position:absolute;
-    right: 10px;
-    top: 2px;
-    color: $primary-color;
 
-    @include mediaQuery(780px){
-        width: 10px;
-        right: 20px;
-        top: 4px;
-    }
-
-    @include mediaQuery(1200px){
-        width: 12px;
-        right: 25px;
-        top: 5px;
-    }
-}
 
 /* end of header */
