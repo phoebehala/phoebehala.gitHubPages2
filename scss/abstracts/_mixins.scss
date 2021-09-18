@@ -20,7 +20,7 @@
 }
 
 // tag/element::after{}
-@mixin underlineDeco($width:"20%") {
+@mixin underlineDeco($width:20%) {
         border-bottom: 3px solid $secondary-color;
         content: '';
         display: block;
