@@ -130,6 +130,9 @@ textarea:focus, input:focus {
   color: #A1C6DC;
   margin: 0 2%;
 }
+.products-showcase a:hover {
+  text-decoration: underline;
+}
 .products-showcase-photo {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -293,6 +296,14 @@ h5 {
   font-size: 0.8em;
 }
 
+.leaflet-bottom, .leaflet-top {
+  z-index: 1;
+}
+
+.leaflet-control {
+  z-index: 1;
+}
+
 .btn {
   background: #BCD9EA;
   border-radius: 5px;
@@ -432,7 +443,6 @@ h5 {
   position: absolute;
   left: 10%;
   display: flex;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -500,7 +510,7 @@ h5 {
   position: fixed;
   top: 2%;
   right: 0%;
-  z-index: 30;
+  z-index: 10000;
 }
 @media screen and (min-width: 780px) {
   .hamburger-menu {

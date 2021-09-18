@@ -34,6 +34,9 @@
     color: $color;
     letter-spacing: $letter-spacing;
 }
+@mixin hoverUnderline {
+    text-decoration: underline;
+}
 
 
 

@@ -85,6 +85,11 @@
     .fa-chart-line{
         color: $primary-color;
         margin: 0 2%;
+
+        
+    }
+    a:hover{
+       @include hoverUnderline;
     }
 
     &-photo{

@@ -102,6 +102,8 @@
 
     position:absolute;
     left: 10%;
+
+    @include flexLayout;
     
     @include mediaQuery(780px){
         width: 200px;
@@ -113,8 +115,7 @@
         height: 30px;
         
     }
-    display: flex;
-    @include flexLayout;
+    
 
     .fa-search{
         width: 9px;
