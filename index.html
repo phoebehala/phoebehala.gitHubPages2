@@ -29,11 +29,11 @@
     <div class="header-bg-deco"></div>
     <nav class="site-nav grid">
         <div class="logo"><h1>HALA</h1></div>
-        <ul>
-            <li><a href="#Welcome">HOME</a></li>
-            <li><a href="#Products">PRODUCTS</a></li>
-            <li><a href="#About">ABOUT US</a></li>
-            <li><a href="#Contact">CONTACT</a></li>
+        <ul class="site-nav-list">
+            <li class="site-nav-list-item"><a href="#Welcome" class="site-nav-list-item-link">HOME</a></li>
+            <li class="site-nav-list-item"><a href="#Products" class="site-nav-list-item-link">PRODUCTS</a></li>
+            <li class="site-nav-list-item"><a href="#About" class="site-nav-list-item-link">ABOUT US</a></li>
+            <li class="site-nav-list-item"><a href="#Contact" class="site-nav-list-item-link">CONTACT</a></li>
         </ul>
     </nav>
 
@@ -87,10 +87,11 @@
       <!--End of Navbar-->
 
     <section id="Welcome" class="grid">
-        <div class="search-box">
+        <form class="search-box">
             <input type="text" class="search-input">
-            <i class="fas fa-search"></i>
-        </div>
+            
+            <input type="search" value="Search"><i class="fas fa-search"></i>
+        </form>
 
         <div class="welcome-text">
             <h2>pick up a gift for <br/> someone you love</h2>
@@ -105,12 +106,12 @@
         <section class="products-catogory" class="grid">
           
             <a href="#">
-                <img src="/assets/img/leather.jpg" alt="leather">
+                <img src="/assets/img/showcase-big1.jpg" alt="leather">
                 <h4>leather</h4>
             </a>
 
             <a href="#">
-                <img src="/assets/img/self-care.webp" alt="self-care">
+                <img src="/assets/img/showcase-small1.jpg" alt="self-care">
                 <h4>self-care</h4>
             </a>
 
@@ -144,54 +145,31 @@
         <h3><i class="fas fa-chart-line"></i>popular viewed & more</h3>
         <div class="products-showcase-photo grid">
             <a href="#">
-                <img src="/assets/img/showcase1-1.webp" alt="">
+                <img src="/assets/img/showcase-big1.jpg" alt="">
             </a>
     
             <a href="#">
-                <img src="/assets/img/showcase1-2.webp" alt="">
+                <img src="/assets/img/showcase-small1.jpg" alt="">
             </a>
     
             <a href="#">
-                <img src="/assets/img/showcase1-4.webp" alt="">
+                <img src="/assets/img/showcase-big2.jpg" alt="">
             </a>
     
             <a href="#">
-                <img src="/assets/img/showcase2-1.webp" alt="">
+                <img src="/assets/img/showcase-small2.jpg" alt="">
             </a>
     
             <a href="#">
-                <img src="/assets/img/showcase2-2.webp" alt="">
+                <img src="/assets/img/showcase-small3.jpg" alt="">
             </a>
     
             <a href="#">
-                <img src="/assets/img/showcase2-3.webp" alt="">
+                <img src="/assets/img/showcase-small4.jpg" alt="">
             </a>
             
         </div>
-        <div class="test-showcase grid">
-            <div><a href="#"></a></div>
-            
-            <a href="#">
-                
-            </a>
-    
-            <a href="#">
-                
-            </a>
-    
-            <a href="#">
-              
-            </a>
-    
-            <a href="#">
-                
-            </a>
-    
-            <a href="#">
-                
-            </a>
-            
-        </div>
+       
 
 
 
@@ -240,17 +218,17 @@
         
 
         <div class="contact-content grid">
-            <form class="contact-form">
+            <form class="contact-form" action="#">
                 <h4><i class="fas fa-user"></i><input type="text" placeholder='Your name'></h4>
                 <h4><i class="fas fa-envelope-open"></i><input type="email" placeholder='Your email'></h4>
                 <h4 class="message">
                     <i class="fas fa-comment-dots"></i>
-                    <input type="email" placeholder='Subject'>
+                    <input type="text" placeholder='Subject'>
                     <textarea placeholder='Your message'></textarea>
                     
-                </h4>   
-                
+                </h4>  
                 <button class="btn">submit</button> 
+                <input class="btn-submit" type="submit"> 
             </form>
         
             <div class="contact-info">
@@ -322,7 +300,7 @@
         </div>
 
         <div class="copyright">
-            <h5>Copyright <i class="far fa-copyright"></i> 2021 Phoebe Yu</h5>
+            <h5>Copyright <i class="far fa-copyright"></i> &copy; 2021 Phoebe Yu</h5>
         </div>
     </footer>
 

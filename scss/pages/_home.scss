@@ -153,6 +153,18 @@
         grid-column: 1/6;
     }
 }
+.contact-form {
+    //width: 70%;
+    [type="text"],[type="email"]{
+         width: 70%;
+    }
+    [type="submit"]{
+        width:20%;
+    }
+}
+
+
+
 .contact-info{
     grid-column: 2/9;
     text-align: center; 
@@ -160,17 +172,12 @@
     @include mediaQuery(780px){
         grid-column: 7/12;
     }
-    @include mediaQuery(780px){
+    @include mediaQuery(1200px){
         grid-column: 6/12;
     }
 }
 
-.contact-form input{
-    width: 70%;
-    @include mediaQuery(780px){
-        width: 60%;
-    }
-}
+
 .contact-form h4 .fas, .contact-info h4 .fas{
     margin-right: 10px;
 
@@ -186,7 +193,6 @@
     margin-top: 10px;
 
     @include mediaQuery(780px){
-        width: 60%;
         height: 250px;
         margin-left: 40px;
         margin-top: 15px;

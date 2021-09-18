@@ -9,7 +9,7 @@
         margin: 0 30px;
     }
 }
-.site-nav ul{
+.site-nav-list{
     display: none;
 
     @include mediaQuery(1200px){
@@ -19,6 +19,15 @@
         
         align-self: center;
         z-index: 1;
+    }
+
+    &-item-link{
+        @include mediaQuery(1200px){
+            @include hoverTransition;
+        }
+        &:hover{
+            @include hoverEffect($font-main-color,2px);    
+        }
     }
 }
 
@@ -94,11 +103,12 @@
         height: 25px;
         
     }
-    @include mediaQuery(120px){
+    @include mediaQuery(1200px){
         width: 260px;
         height: 30px;
-           
+        
     }
+    display: flex;
 
 
 }

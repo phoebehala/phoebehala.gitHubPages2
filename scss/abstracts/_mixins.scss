@@ -1,3 +1,5 @@
+@use '../abstracts/variables' as *;
+
 @mixin flexLayout($justify-content: center,$align-items: center) {
     display: flex;
     justify-content: $justify-content;
@@ -16,6 +18,18 @@
 }
 
 
+
+// hover effect
+@mixin hoverTransition {
+    transition: all 0.5s;
+}
+@mixin hoverEffect ($color:$secondary-color,$letter-spacing: 4px){
+    color: $color;
+    letter-spacing: $letter-spacing;
+}
+
+
+
 /* mobile 
 @media screen and (min-width: 375px) {}
 
@@ -30,4 +44,6 @@
         @content;
     }
 }
+
+
 
