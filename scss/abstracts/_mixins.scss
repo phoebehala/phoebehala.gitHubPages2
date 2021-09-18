@@ -19,6 +19,16 @@
     text-transform: $transform;
 }
 
+// tag/element::after{}
+@mixin underlineDeco($width:"20%") {
+        border-bottom: 3px solid $secondary-color;
+        content: '';
+        display: block;
+        width: $width;
+        margin: auto;
+        padding-top: 5px;
+}
+
 %fullSpace{
     width: 100%;
     height: 100%;

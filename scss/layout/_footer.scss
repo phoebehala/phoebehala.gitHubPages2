@@ -21,24 +21,22 @@ footer{
     @include mediaQuery(780px){
         grid-column: span 3;
     }
-}
-.footer-category h4::after{
-    border-bottom: 3px solid $secondary-color;
-    content: '';
-    display: block;
-    width: 20%;
-    margin: auto;
-    padding-top: 5px;
     
+    h4::after{
+        @include underlineDeco;
+        
+    }
 }
+
 footer li{
     font-size: 0.9em;
     margin: 9px 0;
     cursor: pointer;   
-}
-footer li .fas{
-    margin-right: 10px;
     
+    .fas{
+        margin-right: 10px;
+        
+    }
 }
 .footer-follow .footer-follow-content{
     display: flex;
@@ -49,12 +47,15 @@ footer li .fas{
         padding: 0 20%;
     }
 }
+
+
 .copyright{
     margin-top: 50px;
     background-color: white;
     text-align: center;
-}
-.copyright h5{
-    margin: 0 auto;
-    padding-top: 10px;
+    h5{
+        margin: 0 auto;
+        padding-top: 10px;
+    }
+
 }
