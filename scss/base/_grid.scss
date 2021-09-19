@@ -26,7 +26,7 @@
 
     @include mediaQuery(1200px){
         height: 70px;
-        padding: 0 10%;
+        padding: 0 5%;
     }
     
 }
@@ -40,7 +40,7 @@
     text-align: center;
 
     @include mediaQuery(780px){
-        gap: 0px; 
+        gap: 2%;
     }
 
     img{
@@ -66,6 +66,7 @@
 
 
 /* end of products-category */
+
 
 
 /* products-showcase */
@@ -96,7 +97,7 @@
         display:grid;
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: repeat(6,1fr);
-        gap: 10px;
+        gap: 15px;
 
         @include mediaQuery(780px){
             grid-template-columns: repeat(4,1fr);

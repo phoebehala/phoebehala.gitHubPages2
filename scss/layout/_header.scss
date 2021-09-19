@@ -31,7 +31,8 @@
             @include hoverTransition;
         }
         &:hover{
-            @include hoverEffect($font-main-color,2px);    
+            @include hoverEffect($font-main-color,2px); 
+            font-weight: 900;   
         }
     }
 }
