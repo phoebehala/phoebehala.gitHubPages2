@@ -107,6 +107,7 @@
 
     position:absolute;
     left: 10%;
+    
 
     @include flexLayout;
     
@@ -153,8 +154,7 @@
         
         padding: 0;
         color:$font-main-color;
-        font-size:medium;
-        //line-height:20px;
+        line-height: 20px;
 
         width: 80%;
         font-size: $font-size-placeholder;
