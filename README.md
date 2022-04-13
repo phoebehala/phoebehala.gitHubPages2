@@ -1,4 +1,4 @@
-# Responsive landing page
+# Responsive Landing Page
 > An HTML and SASS landing page.
 > Live demo [_here_](https://hopeful-boyd-fe73bc.netlify.app/).
 
@@ -12,6 +12,7 @@
 - To create an landing page with SASS
 #### Purposes / Intentions
 - To practice SASS Architecture
+- To practice css Grid
 
 
 ## Technologies Used
