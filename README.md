@@ -6,6 +6,7 @@
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Features & Challenges](#features--challenges)
+* [Room for Improvement](#room-for-improvement)
 
 ## General Information
 #### Idea / Motivation
@@ -24,5 +25,10 @@
 
 #### css Grid
 #### mapbox
+
+
+## Room for Improvement
+To do:
+- Adjusted time zone
 
 
